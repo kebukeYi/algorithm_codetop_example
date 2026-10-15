@@ -66,3 +66,14 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+.vscode/
+
+# 通用写法：忽略当前目录下所有无后缀可执行程序（推荐，以后新增编译产物不用反复加）
+# 匹配不带后缀的可执行文件，但是不匹配 .cpp / .h 文件
+*
+!*.cpp
+!*.h
+!*.hpp
+!*.md
+!CMakeLists.txt
