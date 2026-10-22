@@ -6,6 +6,7 @@
 #include <vector>
 using namespace std;
 class Solution {
+
     // 编写一个函数来查找字符串数组中的最长公共前缀;
     // strs = ["flower","flow","flight"]; 输出："fl";
     string longestCommonPrefix(vector<string>& strs) {

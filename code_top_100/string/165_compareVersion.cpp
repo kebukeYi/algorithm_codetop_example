@@ -6,6 +6,7 @@ using namespace std;
 
 class Solution {
    public:
+    // 比较版本号;
     int compareVersion(string version1, string version2) {
         int i = 0, j = 0;
         int n = version1.size(), m = version2.size();
@@ -34,5 +35,3 @@ class Solution {
 };
 
 int main() {}
-
-
