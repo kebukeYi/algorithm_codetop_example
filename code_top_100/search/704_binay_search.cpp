@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 class Solution {
-    // 2分查找
+        // 2分查找
     int search(vector<int>& nums, int target) {
         int left = 0;
         int right = nums.size() - 1;
